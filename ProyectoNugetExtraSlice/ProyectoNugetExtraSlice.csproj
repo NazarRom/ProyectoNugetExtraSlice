@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>NazarR</Authors>
+    <Company>NazMrk</Company>
+    <Description>Primeros modelos</Description>
+    <PackageIcon>LogoExtraSlice.png</PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>NugetExtraSlice</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ExtraSliceV2\ExtraSliceV2\wwwroot\LogoExtraSlice.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
